@@ -1,6 +1,9 @@
+/************************
+GENERAL
+************************/
 a {
 	text-decoration: none;
-	color: #6ab47b
+	
 }
 
 #wrapper{
@@ -10,24 +13,71 @@ a {
 	background: #ffcba0; 
 }
 
+
+body{
+	background: #805215
+}
+
+h1{
+	font-family: 'Candal', sans-serif;
+	margin: 25px 0;
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #ffdbaa;
+}
+
+h2{
+	font-family: 'Fjalla One', sans-serif;
+	margin: 10px 0;
+	font-size: 1.50em;
+	font-weight: normal;
+	line-height: 0.1em;
+	color: #ffdbaa;
+}
+
+/************************
+HEADING
+************************/
+header{
+	background: #aa7939;
+	border-color: #553100;
+}
+
 #logo{
 	text-align: center;
 	margin: 0;
 }
 
-header{
-	background: #499c9c;
-	border-color: #2e8c8c;
+
+
+/************************
+FOOTER
+************************/
+footer{
+	background: #aa7939;
+	border-color: #805215;
+	text-align: center;
 }
 
-h1,h2{
-	color: #ffb477;
-}
-
+/************************
+NAVIGAION
+************************/
 nav{
-	background: #6db69c;
+	background: #553100;
 }
 
 nav a, nav a:visited{
-	color: #fff;
+	color: #d4a76a;
 }
+
+nav a.selected{
+	color: #ffdbaa;
+}
+
+nav a:hover{
+	color: #fff;
+	background: #aa7939;
+	font-family: 'Fjalla One', sans-serif;
+}
+
