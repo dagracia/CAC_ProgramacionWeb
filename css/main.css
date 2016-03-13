@@ -65,6 +65,10 @@ img{
 HEADING
 ************************/
 header{
+	float: left;
+	margin: 0 0 30px 10px;
+	padding: 5px 0 0 0;
+	width: 100%;
 	background: #aa7939;
 	border-color: #553100;
 }
@@ -95,7 +99,19 @@ nav{
 	background: #553100;
 }
 
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+display: inline-block;
+}
+
 nav a, nav a:visited{
+	font-weight: 800;
+	padding: 15px 10px;
 	color: #d4a76a;
 }
 
