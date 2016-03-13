@@ -80,6 +80,9 @@ header{
 FOOTER
 ************************/
 footer{
+	font-size: 0.75em;
+	clear: both;
+	padding-top: 50px;
 	background: #aa7939;
 	border-color: #805215;
 	text-align: center;
