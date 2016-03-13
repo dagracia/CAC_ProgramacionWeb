@@ -51,7 +51,7 @@ img{
 	width: 45%;
 	margin: 2.5%;
 	background: #f5f5f5;
-	color: #bdc3c7
+	color: #000
 }
 
 #galeria li a p{
@@ -66,7 +66,7 @@ HEADING
 ************************/
 header{
 	float: left;
-	margin: 0 0 30px 10px;
+	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 	background: #aa7939;
@@ -123,6 +123,7 @@ nav a, nav a:visited{
 
 nav a.selected{
 	color: #ffdbaa;
+	background: #aa7939;
 }
 
 nav a:hover{
@@ -131,3 +132,13 @@ nav a:hover{
 	font-family: 'Fjalla One', sans-serif;
 }
 
+/*********************
+ABOUT
+*********************/
+
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 25%;
+}
