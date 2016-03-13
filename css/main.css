@@ -92,6 +92,12 @@ footer{
 	text-align: center;
 }
 
+.social-icon{
+	width: 30px;
+	height: 30px;
+	margin: 0 15px;
+}
+
 /************************
 NAVIGAION
 ************************/
