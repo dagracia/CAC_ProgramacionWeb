@@ -45,13 +45,39 @@
 
 @media screen and (min-width: 660px)
 {
+	header{
+		border-bottom: 5px solid #553100;
+		margin-bottom: 60px;
+	}
+	 
+	#logo{
+		float: left;
+		margin-left: 4.5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
 	nav{
-		
-		background: #553100;
+		background: none;
 		float: right;
 		font-size: 1.125em;
-		margin-right: 5%;
+		margin-right: 4.5%;
 		text-align: right;
 		width: 45%;
 	}
+
+	nav a.selected{
+	color: #ffdbaa;
+	background: #553100;
+}
+
 }
