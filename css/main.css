@@ -5,9 +5,9 @@ a {
 	text-decoration: none;
 	
 }
-
+/*940px;*/
 #wrapper{
-	max-width: 940px;
+	max-width: 80%; 
 	margin: 0 auto;
 	padding: 0 5%;
 	background: #ffcba0; 
@@ -15,7 +15,8 @@ a {
 
 
 body{
-	background: #805215
+	background: #805215;
+	max-width:100%;
 }
 
 h1{
@@ -75,7 +76,7 @@ header{
 
 #logo{
 	text-align: center;
-	margin: 0;
+	margin: 1px;
 }
 
 
@@ -102,12 +103,13 @@ footer{
 NAVIGAION
 ************************/
 nav{
+	
 	background: #553100;
 }
 
 nav ul{
 	list-style: none;
-	margin: 0 10px;
+	margin: 10px 10px 10px 10px;
 	padding: 0;
 }
 
